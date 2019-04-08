@@ -26,6 +26,7 @@ class MyGetHttpDataState extends State<MyGetHttpData> {
     //class walin ganna widiya cheak kare
     //me kramen okkoma enawa
     //pahala thina clases balanna
+    //okkoma clear
 
     final jsonResponse = json.decode(response.body);
     Student student = new Student.fromJson(jsonResponse);
