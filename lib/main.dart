@@ -78,7 +78,7 @@ class MyGetHttpDataState extends State<MyGetHttpData> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Retrieve JSON Data via HTTP GET"),
+        title: new Text("Retrieve JSON Data via HTTP GET Method"),
       ),
       // Create a Listview and load the data when available
       body: _progressBarActive == true
